@@ -7,7 +7,7 @@ mydb = mysql.connector.connect(
     database = "terrordb",
     port=8889
 )
-echo "ugh!"
+print("ugh!");
 
 mycursor = mydb.cursor()
 
